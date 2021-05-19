@@ -1,0 +1,38 @@
+.container-1{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2 {
+    background: url('https://img.freepik.com/free-photo/jack-spade-heart-ace-card-with-casino-chip-stack-green-poker-table_23-2147881160.jpg?size=626&ext=jpg');
+    color: white;
+}
+.flex-blackjack-row-1 div {
+    border: 2px solid black;
+    flex: 1;
+    min-height: 350px;
+    padding: 10;
+    text-align: center;
+}
+.flex-blackjack-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
+.flex-blackjack-row-2 button {
+    border: 1px solid black;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
